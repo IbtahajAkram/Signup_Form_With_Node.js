@@ -5,9 +5,9 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = 4000;
 
-const connectionString = 'mongodb+srv://zawwar1313:SKemd6qGp8cvc3BT@cluster0.yf0z8hu.mongodb.net/?retryWrites=true&w=majority';
-const databaseName = 'register';
-const collectionName = 'registers';
+const connectionString = '';
+const databaseName = '';
+const collectionName = '';
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
